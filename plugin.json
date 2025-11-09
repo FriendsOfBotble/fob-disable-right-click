@@ -1,0 +1,11 @@
+{
+    "id": "friendsofbotble/fob-disable-right-click",
+    "name": "FOB Disable Right Click",
+    "namespace": "FriendsOfBotble\\DisableRightClick\\",
+    "provider": "FriendsOfBotble\\DisableRightClick\\Providers\\DisableRightClickServiceProvider",
+    "author": "Friends of Botble",
+    "url": "https://friendsofbotble.com",
+    "version": "1.0.0",
+    "description": "Disable right-click, text selection, and developer console on your website to protect your content.",
+    "minimum_core_version": "7.6.0"
+}
