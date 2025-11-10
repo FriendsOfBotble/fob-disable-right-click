@@ -4,7 +4,7 @@ return [
     'name' => 'Lumpuhkan Klik Kanan',
     'description' => 'Lumpuhkan klik kanan, pemilihan teks, dan konsol pembangun di laman web anda untuk melindungi kandungan.',
     'settings' => [
-        'title' => 'Tetapan Lumpuhkan Klik Kanan',
+        'title' => 'Lumpuhkan Klik Kanan',
         'description' => 'Konfigurasi tetapan perlindungan klik kanan, pemilihan teks, dan konsol pembangun.',
         'enable_right_click' => 'Lumpuhkan Klik Kanan',
         'enable_right_click_help' => 'Mencegah pengguna menggunakan menu konteks klik kanan dan pintasan papan kekunci untuk melihat kod sumber.',

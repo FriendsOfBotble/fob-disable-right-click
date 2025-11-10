@@ -4,7 +4,7 @@ return [
     'name' => 'Jobb kattintás letiltása',
     'description' => 'Tiltsa le a jobb kattintást, a szöveg kijelölését és a fejlesztői konzolt a weboldalán a tartalom védelme érdekében.',
     'settings' => [
-        'title' => 'Jobb kattintás letiltásának beállításai',
+        'title' => 'Jobb kattintás letiltása',
         'description' => 'Konfigurálja a jobb kattintás, szöveg kijelölés és fejlesztői konzol védelmi beállításait.',
         'enable_right_click' => 'Jobb kattintás letiltása',
         'enable_right_click_help' => 'Akadályozza meg, hogy a felhasználók a jobb kattintásos helyi menüt és a billentyűparancsokat használják a forráskód megtekintéséhez.',

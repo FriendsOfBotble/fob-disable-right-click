@@ -4,7 +4,7 @@ return [
     'name' => 'Sağ Tıklamayı Devre Dışı Bırak',
     'description' => 'İçeriğinizi korumak için web sitenizde sağ tıklama, metin seçimi ve geliştirici konsolunu devre dışı bırakın.',
     'settings' => [
-        'title' => 'Sağ Tıklamayı Devre Dışı Bırakma Ayarları',
+        'title' => 'Sağ Tıklamayı Devre Dışı Bırak',
         'description' => 'Sağ tıklama, metin seçimi ve geliştirici konsolu koruma ayarlarını yapılandırın.',
         'enable_right_click' => 'Sağ Tıklamayı Devre Dışı Bırak',
         'enable_right_click_help' => 'Kullanıcıların sağ tık bağlam menüsünü ve kaynak kodunu görüntülemek için klavye kısayollarını kullanmasını engelleyin.',

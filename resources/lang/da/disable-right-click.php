@@ -4,7 +4,7 @@ return [
     'name' => 'Deaktiver højreklik',
     'description' => 'Deaktiver højreklik, tekstvalg og udviklerkonsol på din hjemmeside for at beskytte dit indhold.',
     'settings' => [
-        'title' => 'Indstillinger for deaktivering af højreklik',
+        'title' => 'Deaktiver højreklik',
         'description' => 'Konfigurer beskyttelsesindstillinger for højreklik, tekstvalg og udviklerkonsol.',
         'enable_right_click' => 'Deaktiver højreklik',
         'enable_right_click_help' => 'Forhindre brugere i at bruge højreklik-kontekstmenuen og tastaturgenveje til at se kildekoden.',

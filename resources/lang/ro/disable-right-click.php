@@ -4,7 +4,7 @@ return [
     'name' => 'Dezactivare clic dreapta',
     'description' => 'Dezactivați clicul dreapta, selecția textului și consola dezvoltatorului pe site-ul dvs. pentru a vă proteja conținutul.',
     'settings' => [
-        'title' => 'Setări dezactivare clic dreapta',
+        'title' => 'Dezactivare clic dreapta',
         'description' => 'Configurați setările de protecție pentru clicul dreapta, selecția textului și consola dezvoltatorului.',
         'enable_right_click' => 'Dezactivare clic dreapta',
         'enable_right_click_help' => 'Împiedicați utilizatorii să folosească meniul contextual al clicului dreapta și scurtăturile de la tastatură pentru a vizualiza codul sursă.',

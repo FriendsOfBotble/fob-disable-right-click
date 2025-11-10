@@ -4,7 +4,7 @@ return [
     'name' => 'Keela paremklõps',
     'description' => 'Keelake paremklõps, teksti valimine ja arendaja konsool oma veebisaidil sisu kaitsmiseks.',
     'settings' => [
-        'title' => 'Paremklõpsu keelustamise seaded',
+        'title' => 'Keela paremklõps',
         'description' => 'Konfigureerige paremklõpsu, teksti valimise ja arendaja konsooli kaitse seaded.',
         'enable_right_click' => 'Keela paremklõps',
         'enable_right_click_help' => 'Takistage kasutajatel kasutamast paremklõpsu kontekstimenüüd ja kiirklahve lähtekoodi vaatamiseks.',

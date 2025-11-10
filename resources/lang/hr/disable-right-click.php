@@ -4,7 +4,7 @@ return [
     'name' => 'Onemogući desni klik',
     'description' => 'Onemogućite desni klik, odabir teksta i konzolu za razvojne programere na vašoj web stranici radi zaštite sadržaja.',
     'settings' => [
-        'title' => 'Postavke onemogućavanja desnog klika',
+        'title' => 'Onemogući desni klik',
         'description' => 'Konfigurirajte postavke zaštite desnog klika, odabira teksta i konzole za razvojne programere.',
         'enable_right_click' => 'Onemogući desni klik',
         'enable_right_click_help' => 'Spriječite korisnike da koriste kontekstualni izbornik desnog klika i tipkovničke prečace za prikaz izvornog koda.',

@@ -4,7 +4,7 @@ return [
     'name' => 'Rechtsklick deaktivieren',
     'description' => 'Deaktivieren Sie den Rechtsklick, die Textauswahl und die Entwicklerkonsole auf Ihrer Website, um Ihre Inhalte zu schützen.',
     'settings' => [
-        'title' => 'Einstellungen zum Deaktivieren des Rechtsklicks',
+        'title' => 'Rechtsklick deaktivieren',
         'description' => 'Konfigurieren Sie die Schutzeinstellungen für Rechtsklick, Textauswahl und Entwicklerkonsole.',
         'enable_right_click' => 'Rechtsklick deaktivieren',
         'enable_right_click_help' => 'Verhindern Sie, dass Benutzer das Kontextmenü des Rechtsklicks und Tastenkombinationen verwenden, um den Quellcode anzuzeigen.',

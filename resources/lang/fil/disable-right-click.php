@@ -4,7 +4,7 @@ return [
     'name' => 'I-disable ang Right Click',
     'description' => 'I-disable ang right-click, pagpili ng teksto, at developer console sa iyong website upang protektahan ang iyong content.',
     'settings' => [
-        'title' => 'Mga Setting ng I-disable ang Right Click',
+        'title' => 'I-disable ang Right Click',
         'description' => 'I-configure ang mga setting ng proteksyon para sa right-click, pagpili ng teksto, at developer console.',
         'enable_right_click' => 'I-disable ang Right Click',
         'enable_right_click_help' => 'Pigilan ang mga user na gumamit ng right-click context menu at keyboard shortcuts upang tingnan ang source code.',

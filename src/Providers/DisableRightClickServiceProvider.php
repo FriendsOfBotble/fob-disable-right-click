@@ -3,7 +3,10 @@
 namespace FriendsOfBotble\DisableRightClick\Providers;
 
 use Botble\Base\Facades\DashboardMenu;
+use Botble\Base\Facades\PanelSectionManager;
+use Botble\Base\PanelSections\PanelSectionItem;
 use Botble\Base\Traits\LoadAndPublishDataTrait;
+use Botble\Setting\PanelSections\SettingOthersPanelSection;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 
@@ -17,6 +20,18 @@ class DisableRightClickServiceProvider extends ServiceProvider
             ->setNamespace('plugins/fob-disable-right-click')
             ->loadAndPublishTranslations()
             ->loadRoutes(['web']);
+
+        PanelSectionManager::default()->beforeRendering(function (): void {
+            PanelSectionManager::registerItem(
+                SettingOthersPanelSection::class,
+                fn () => PanelSectionItem::make('fob-disable-right-click')
+                    ->setTitle(trans('plugins/fob-disable-right-click::disable-right-click.settings.title'))
+                    ->withDescription(trans('plugins/fob-disable-right-click::disable-right-click.settings.description'))
+                    ->withIcon('ti ti-shield-lock')
+                    ->withPriority(0)
+                    ->withRoute('fob-disable-right-click.settings')
+            );
+        });
 
         $this->app->booted(function (): void {
             $this->registerMenuItems();

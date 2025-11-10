@@ -4,7 +4,7 @@ return [
     'name' => 'Desativar clique direito',
     'description' => 'Desative o clique direito, a seleção de texto e o console do desenvolvedor no seu site para proteger o conteúdo.',
     'settings' => [
-        'title' => 'Configurações de desativação do clique direito',
+        'title' => 'Desativar clique direito',
         'description' => 'Configure as definições de proteção do clique direito, seleção de texto e console do desenvolvedor.',
         'enable_right_click' => 'Desativar clique direito',
         'enable_right_click_help' => 'Impedir que os utilizadores usem o menu de contexto do clique direito e atalhos de teclado para ver o código-fonte.',

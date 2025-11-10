@@ -4,7 +4,7 @@ return [
     'name' => 'Nonaktifkan Klik Kanan',
     'description' => 'Nonaktifkan klik kanan, pemilihan teks, dan konsol pengembang di situs web Anda untuk melindungi konten.',
     'settings' => [
-        'title' => 'Pengaturan Nonaktifkan Klik Kanan',
+        'title' => 'Nonaktifkan Klik Kanan',
         'description' => 'Konfigurasi pengaturan perlindungan klik kanan, pemilihan teks, dan konsol pengembang.',
         'enable_right_click' => 'Nonaktifkan Klik Kanan',
         'enable_right_click_help' => 'Mencegah pengguna menggunakan menu konteks klik kanan dan pintasan keyboard untuk melihat kode sumber.',

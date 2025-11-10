@@ -4,7 +4,7 @@ return [
     'name' => '禁用右鍵',
     'description' => '在您的網站上禁用右鍵單擊、文本選擇和開發者控制台以保護您的內容。',
     'settings' => [
-        'title' => '禁用右鍵設置',
+        'title' => '禁用右鍵',
         'description' => '配置右鍵單擊、文本選擇和開發者控制台保護設置。',
         'enable_right_click' => '禁用右鍵單擊',
         'enable_right_click_help' => '阻止用戶使用右鍵上下文菜單和鍵盤快捷鍵查看源代碼。',

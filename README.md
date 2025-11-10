@@ -2,6 +2,8 @@
 
 A Botble CMS plugin to disable right-click, text selection, and developer console on your website to protect your content.
 
+![FOB Disable Right Click](./art/screenshot.png)
+
 ## Features
 
 - **Disable Right Click**: Prevent users from using right-click context menu
@@ -17,11 +19,15 @@ A Botble CMS plugin to disable right-click, text selection, and developer consol
 
 ## Installation
 
-1. Download the plugin
-2. Extract to `platform/plugins/fob-disable-right-click`
-3. Go to Admin Panel → Plugins
-4. Activate the plugin
-5. Go to Admin Panel → Settings → Disable Right Click to configure
+### Install via Admin Panel
+
+Go to the **Admin Panel** and click on the **Plugins** tab. Click on the "Add new" button, find the **FOB Disable Right Click** plugin and click on the "Install" button.
+
+### Install manually
+
+1. Download the plugin from the [Botble Marketplace](https://marketplace.botble.com/products/FriendsOfBotble/fob-disable-right-click).
+2. Extract the downloaded file and upload the extracted folder to the `platform/plugins` directory.
+3. Go to **Admin** > **Plugins** and click on the **Activate** button.
 
 ## Configuration
 
@@ -38,10 +44,6 @@ Navigate to **Admin Panel → Settings → Disable Right Click** to configure:
 3. **Disable Developer Console** (Disabled by default)
    - Detects when DevTools/Console is opened
    - Automatically reloads the page when detected
-
-## Screenshot
-
-![Settings Page](art/screenshot.png)
 
 ## How It Works
 
@@ -63,17 +65,27 @@ For better content protection, consider:
 - Implementing server-side security measures
 - Using CDN protection services
 
-## Support
+## Screenshot
 
-For issues, questions, or contributions, please visit:
-- [Friends of Botble](https://friendsofbotble.com)
-- [Botble Documentation](https://docs.botble.com)
+![Settings Page](art/screenshot.png)
+
+## Changelog
+
+Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+
+## Contributing
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+
+## Security
+
+If you discover any security related issues, please email friendsofbotble@gmail.com instead of using the issue tracker.
+
+## Credits
+
+-   [Friends Of Botble](https://github.com/FriendsOfBotble)
+-   [All Contributors](../../contributors)
 
 ## License
 
-This plugin is open-sourced software licensed under the [MIT license](LICENSE).
-
-## Author
-
-**Friends of Botble**
-- Website: https://friendsofbotble.com
+The MIT License (MIT). Please see [License File](LICENSE) for more information.

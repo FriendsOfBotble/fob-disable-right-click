@@ -4,7 +4,7 @@ return [
     'name' => 'Atspējot labo peles pogu',
     'description' => 'Atspējojiet labo peles pogu, teksta atlasi un izstrādātāja konsoli savā vietnē, lai aizsargātu saturu.',
     'settings' => [
-        'title' => 'Labās peles pogas atspējošanas iestatījumi',
+        'title' => 'Atspējot labo peles pogu',
         'description' => 'Konfigurējiet labās peles pogas, teksta atlases un izstrādātāja konsoles aizsardzības iestatījumus.',
         'enable_right_click' => 'Atspējot labo peles pogu',
         'enable_right_click_help' => 'Novērsiet lietotājiem izmantot labās peles pogas konteksta izvēlni un tastatūras īsceļus avota koda skatīšanai.',

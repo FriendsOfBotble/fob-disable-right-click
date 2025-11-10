@@ -4,7 +4,7 @@ return [
     'name' => 'Zakázat pravé tlačítko myši',
     'description' => 'Zakažte pravé tlačítko myši, výběr textu a konzoli pro vývojáře na vašem webu pro ochranu obsahu.',
     'settings' => [
-        'title' => 'Nastavení zakázání pravého tlačítka myši',
+        'title' => 'Zakázat pravé tlačítko myši',
         'description' => 'Nakonfigurujte nastavení ochrany pravého tlačítka myši, výběru textu a konzole pro vývojáře.',
         'enable_right_click' => 'Zakázat pravé tlačítko myši',
         'enable_right_click_help' => 'Zabraňte uživatelům používat kontextové menu pravého tlačítka myši a klávesové zkratky pro zobrazení zdrojového kódu.',

@@ -4,7 +4,7 @@ return [
     'name' => 'Inaktivera högerklick',
     'description' => 'Inaktivera högerklick, textval och utvecklarkonsol på din webbplats för att skydda ditt innehåll.',
     'settings' => [
-        'title' => 'Inställningar för inaktivering av högerklick',
+        'title' => 'Inaktivera högerklick',
         'description' => 'Konfigurera skyddsinställningar för högerklick, textval och utvecklarkonsol.',
         'enable_right_click' => 'Inaktivera högerklick',
         'enable_right_click_help' => 'Förhindra att användare använder högerklickskontextmenyn och tangentbordsgenvägar för att visa källkoden.',

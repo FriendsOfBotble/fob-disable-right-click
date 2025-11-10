@@ -4,7 +4,7 @@ return [
     'name' => 'Vô hiệu hóa chuột phải',
     'description' => 'Vô hiệu hóa chuột phải, chọn văn bản và console developer trên website để bảo vệ nội dung.',
     'settings' => [
-        'title' => 'Cài đặt vô hiệu hóa chuột phải',
+        'title' => 'Vô hiệu hóa chuột phải',
         'description' => 'Cấu hình cài đặt bảo vệ chuột phải, chọn văn bản và console developer.',
         'enable_right_click' => 'Vô hiệu hóa chuột phải',
         'enable_right_click_help' => 'Ngăn người dùng sử dụng menu chuột phải và phím tắt để xem mã nguồn.',

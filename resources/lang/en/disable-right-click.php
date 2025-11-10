@@ -4,7 +4,7 @@ return [
     'name' => 'Disable Right Click',
     'description' => 'Disable right-click, text selection, and developer console on your website to protect your content.',
     'settings' => [
-        'title' => 'Disable Right Click Settings',
+        'title' => 'Disable Right Click',
         'description' => 'Configure right-click, text selection, and developer console protection settings.',
         'enable_right_click' => 'Disable Right Click',
         'enable_right_click_help' => 'Prevent users from using right-click context menu and keyboard shortcuts to view source code.',

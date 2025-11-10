@@ -4,7 +4,7 @@ return [
     'name' => 'Išjungti dešinį pelės klavišą',
     'description' => 'Išjunkite dešinį pelės klavišą, teksto žymėjimą ir kūrėjo konsolę savo svetainėje, kad apsaugotumėte turinį.',
     'settings' => [
-        'title' => 'Dešinio pelės klavišo išjungimo nustatymai',
+        'title' => 'Išjungti dešinį pelės klavišą',
         'description' => 'Konfigūruokite dešinio pelės klavišo, teksto žymėjimo ir kūrėjo konsolės apsaugos nustatymus.',
         'enable_right_click' => 'Išjungti dešinį pelės klavišą',
         'enable_right_click_help' => 'Užkirskite vartotojams kelią naudoti dešinio pelės klavišo kontekstinį meniu ir klaviatūros sparčiuosius klavišus šaltinio kodo peržiūrai.',

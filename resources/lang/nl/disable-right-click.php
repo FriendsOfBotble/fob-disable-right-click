@@ -4,7 +4,7 @@ return [
     'name' => 'Rechtsklik uitschakelen',
     'description' => 'Schakel rechtsklik, tekstselectie en ontwikkelaarsconsole uit op uw website om uw inhoud te beschermen.',
     'settings' => [
-        'title' => 'Instellingen rechtsklik uitschakelen',
+        'title' => 'Rechtsklik uitschakelen',
         'description' => 'Configureer de beveiligingsinstellingen voor rechtsklik, tekstselectie en ontwikkelaarsconsole.',
         'enable_right_click' => 'Rechtsklik uitschakelen',
         'enable_right_click_help' => 'Voorkom dat gebruikers het contextmenu van rechtsklik en toetsenbordsneltoetsen gebruiken om de broncode te bekijken.',
