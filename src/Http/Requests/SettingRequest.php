@@ -12,6 +12,8 @@ class SettingRequest extends Request
         return [
             'fob_disable_right_click_enabled' => new OnOffRule(),
             'fob_disable_text_selection_enabled' => new OnOffRule(),
+            'fob_disable_copy_enabled' => new OnOffRule(),
+            'fob_disable_image_drag_enabled' => new OnOffRule(),
             'fob_disable_devtools_enabled' => new OnOffRule(),
         ];
     }

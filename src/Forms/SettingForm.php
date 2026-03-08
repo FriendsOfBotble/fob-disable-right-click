@@ -34,6 +34,22 @@ class SettingForm extends BaseSettingForm
                     ->defaultValue((bool) setting('fob_disable_text_selection_enabled', false))
             )
             ->add(
+                'fob_disable_copy_enabled',
+                OnOffCheckboxField::class,
+                OnOffFieldOption::make()
+                    ->label(trans('plugins/fob-disable-right-click::disable-right-click.settings.enable_copy_protection'))
+                    ->helperText(trans('plugins/fob-disable-right-click::disable-right-click.settings.enable_copy_protection_help'))
+                    ->defaultValue((bool) setting('fob_disable_copy_enabled', false))
+            )
+            ->add(
+                'fob_disable_image_drag_enabled',
+                OnOffCheckboxField::class,
+                OnOffFieldOption::make()
+                    ->label(trans('plugins/fob-disable-right-click::disable-right-click.settings.enable_image_drag_protection'))
+                    ->helperText(trans('plugins/fob-disable-right-click::disable-right-click.settings.enable_image_drag_protection_help'))
+                    ->defaultValue((bool) setting('fob_disable_image_drag_enabled', false))
+            )
+            ->add(
                 'fob_disable_devtools_enabled',
                 OnOffCheckboxField::class,
                 OnOffFieldOption::make()
